@@ -1,25 +1,44 @@
 /* add your CSS here */
-#main-content{
-	width: 340px;
-	background: #F0E68C;
-	padding: 10px;
+.main-content {
+	width: 320px;
+	background: #f0e68c;
+	padding: 10px 0;
 	text-align: center;
+	margin: 0 auto;
+	border: 1px solid #ffa500;
 	font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
 }
-h1{
+
+.card-tittle {
 	font-weight: 800;
 }
-img{
+
+.animal-pic {
 	width: 300px;
 	height: 200px;
+	border: 3px dashed #ff34b3;
+	border-radius: 3px;
 }
-span{
-	font-weight: bold;
-}
-.description{
-	margin: 0 auto;
+
+.description {
+	margin: 10px auto;
 	width: 290px;
 	text-align: left;
 	background: #DAA520;
 	padding: 5px;
+	border: 3px dashed #fafafa;
+	border-radius: 3px;
+}
+
+.short-intro {
+	font-style: italic;
+}
+
+.animal-lists {
+	list-style: none;
+	padding: 0;
+}
+
+.animal-fact-list {
+	font-weight: bold;
 }
